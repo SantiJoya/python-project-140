@@ -22,9 +22,9 @@ cd python-project-140
 
 ## Uso
 
-<!-- Agregue ejemplos de ejecución y una grabación de asciinema: esto es lo que miran los empleadores -->
+<!-- Agregue ejemplos de ejecución y una grabación de asciinema: esto es lo que miran los empleadores-->
 
----
+[![asciinema](https://asciinema.org/a/Pls5EQYITJBgd7Cm.svg)](https://asciinema.org/a/Pls5EQYITJBgd7Cm)
 
 <details>
 <summary>Pruebas automáticas de Códica</summary>
