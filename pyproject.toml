@@ -4,6 +4,8 @@ version = "0.1.0"
 description = "Brain Games for Hexlet"
 readme = "README.md"
 requires-python = ">=3.10"
+authors = [
+    {name = "SantiJoya"}
 dependencies = [
     "prompt>=0.4.1",
 ]

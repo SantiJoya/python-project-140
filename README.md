@@ -15,12 +15,21 @@ Así debería funcionar: https://asciinema.org/a/l40Lrk3midkLmNEOmgZErGnY7
 
 <!-- Describa la instalación: clonación, dependencias, variables de entorno -->
 
+Clona el repositorio e instala el paquete globalmente usando `uv`:
+
 ```bash
 git clone https://github.com/SantiJoya/python-project-140.git
 cd python-project-140
-```
+uv tool install .
 
 ## Uso
+
+brain-games
+brain-even
+brain-calc
+brain-gcd
+brain-progression
+brain-prime
 
 <!-- Agregue ejemplos de ejecución y una grabación de asciinema: esto es lo que miran los empleadores-->
 
