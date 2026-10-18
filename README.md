@@ -25,6 +25,7 @@ cd python-project-140
 <!-- Agregue ejemplos de ejecución y una grabación de asciinema: esto es lo que miran los empleadores-->
 
 [![asciinema](https://asciinema.org/a/Pls5EQYITJBgd7Cm.svg)](https://asciinema.org/a/Pls5EQYITJBgd7Cm)
+[![asciinema](https://asciinema.org/a/kRRrz7LE7HobBbZV.svg)](https://asciinema.org/a/kRRrz7LE7HobBbZV)
 
 <details>
 <summary>Pruebas automáticas de Códica</summary>
