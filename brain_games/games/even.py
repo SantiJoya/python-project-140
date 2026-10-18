@@ -2,6 +2,8 @@ import random
 
 import prompt
 
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
+
 
 def run_even_game():
     print("Welcome to the Brain Games!")
