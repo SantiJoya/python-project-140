@@ -26,6 +26,8 @@ cd python-project-140
 
 [![asciinema](https://asciinema.org/a/Pls5EQYITJBgd7Cm.svg)](https://asciinema.org/a/Pls5EQYITJBgd7Cm)
 [![asciinema](https://asciinema.org/a/kRRrz7LE7HobBbZV.svg)](https://asciinema.org/a/kRRrz7LE7HobBbZV)
+[![asciinema](https://asciinema.org/a/rRp8GemWUEt4RD7A.svg)](https://asciinema.org/a/rRp8GemWUEt4RD7A)
+
 
 <details>
 <summary>Pruebas automáticas de Códica</summary>
