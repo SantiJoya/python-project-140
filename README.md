@@ -28,7 +28,7 @@ cd python-project-140
 [![asciinema](https://asciinema.org/a/kRRrz7LE7HobBbZV.svg)](https://asciinema.org/a/kRRrz7LE7HobBbZV)
 [![asciinema](https://asciinema.org/a/rRp8GemWUEt4RD7A.svg)](https://asciinema.org/a/rRp8GemWUEt4RD7A)
 [![asciinema](https://asciinema.org/a/tBXd3a5aZaNvzzoq.svg)](https://asciinema.org/a/tBXd3a5aZaNvzzoq)
-
+[![asciinema](https://asciinema.org/a/OyZ4MxWQFGTncEEd.svg)](https://asciinema.org/a/OyZ4MxWQFGTncEEd)
 
 <details>
 <summary>Pruebas automáticas de Códica</summary>
