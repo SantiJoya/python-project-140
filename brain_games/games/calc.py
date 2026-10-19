@@ -1,20 +1,16 @@
 import random
 
 DESCRIPTION = 'What is the result of the expression?'
+MIN_NUMBER = 1
+MAX_NUMBER = 50
 
 
 def generate_round():
-    num1 = random.randint(1, 25)
-    num2 = random.randint(1, 25)
-    operator = random.choice(["+", "-", "*"])
-
+    num1 = random.randint(MIN_NUMBER, MAX_NUMBER)
+    num2 = random.randint(MIN_NUMBER, MAX_NUMBER)
+    operator = random.choice(['+', '-', '*'])
+    
     question = f"{num1} {operator} {num2}"
-
-    if operator == "+":
-        correct_answer = str(num1 + num2)
-    elif operator == "-":
-        correct_answer = str(num1 - num2)
-    elif operator == "*":
-        correct_answer = str(num1 * num2)
+    correct_answer = str(eval(f"{num1} {operator} {num2}"))
 
     return question, correct_answer

@@ -1,20 +1,23 @@
 import random
 
 DESCRIPTION = 'What number is missing in the progression?'
+MIN_START = 1
+MAX_START = 50
+MIN_STEP = 1
+MAX_STEP = 10
+PROGRESSION_LENGTH = 10
 
 
 def generate_round():
-    start = random.randint(1, 50)
-    step = random.randint(2, 10)
-    length = random.randint(5, 10)
-
-    progression = [start + i * step for i in range(length)]
-
-    hidden_index = random.randint(0, length - 1)
-    correct_answer = str(progression[hidden_index])
-
-    progression_str = [str(num) for num in progression]
-    progression_str[hidden_index] = ".."
+    start = random.randint(MIN_START, MAX_START)
+    step = random.randint(MIN_STEP, MAX_STEP)
     
-    question = " ".join(progression_str)
+    # Generar la progresión
+    progression = [str(start + i * step) for i in range(PROGRESSION_LENGTH)]
+    
+    hidden_index = random.randint(0, PROGRESSION_LENGTH - 1)
+    correct_answer = progression[hidden_index]
+    progression[hidden_index] = ".."
+    
+    question = " ".join(progression)
     return question, correct_answer
